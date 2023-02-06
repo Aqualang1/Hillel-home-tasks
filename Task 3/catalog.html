@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnCar catalog</title>
+</head>
+
+<body>
+    <div>Choose your options to find</div>
+    <form action="" style="display: flex; flex-direction: column;">
+        <label>Choose brand</label>
+        <select name="brand">
+            <option value="KIA">KIA</option>
+            <option value="DAEWOO">DAEWOO</option>
+            <option value="DAIHATSU">DAIHATSU</option>
+            <option value="TOYOTA">TOYOTA</option>
+            <option value="SSANGYONG">SSANGYONG</option>
+        </select>
+        <label>Cost USD</label>
+        <select name="Cost">
+            <option>1200...2000</option>
+            <option>2000...4000</option>
+            <option>4000...8000</option>
+            <option>over 8000</option>
+        </select>
+        <label>Vehicle status</label>
+        <select>
+            <option>EU registration</option>
+            <option>On credit</option>
+        </select>
+        <label>Gearbox</label>
+        <select name="Gearbox">
+            <option>Manual</option>
+            <option>Automatic</option>
+            <option>DSG</option>
+            <option>CVT</option>
+        </select>
+        <label>Condition</label>
+        <select name="Status">
+            <option>Ideal</option>
+            <option>Needs repair</option>
+            <option>Cosmetic defects</option>
+            <option>Дедушкин Ланос, пробег родной, ездил по выходным на дачу</option>
+        </select>
+        <label>Fuel type</label>
+        <select name="fuel">
+            <option>Gasoline</option>
+            <option>Diesel</option>
+            <option>Hybrid</option>
+            <option>EV</option>
+        </select>
+        <label>Framecolor</label>
+        <select name="color">
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+            <option>Green</option>
+            <option>Other</option>
+        </select>
+        <div>Comfort and safety options:</div>
+        <label>Airbag
+            <input type="checkbox" name="airbag">
+        </label>
+        <label>ABS/ESP
+            <input type="checkbox" name="ABS/ESP">
+        </label>
+        <label>Power steering wheel
+            <input type="checkbox" name="Power steering wheel">
+        </label>
+        <label>leather interior
+            <input type="checkbox" name="leather interior">
+        </label>
+        <textarea>Special needs</textarea>
+        <button>Search</button>
+    </form>
+</body>
+
+</html>
